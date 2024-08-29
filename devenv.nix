@@ -7,7 +7,9 @@
 }: {
   packages = with pkgs; [
     git
+    cmake
     cargo
+    rustup
     rust-analyzer
     rustfmt
   ];
